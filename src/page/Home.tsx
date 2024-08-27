@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { decryptText, encryptText, validarTexto } from '../validations/validation';
-import Image from '../components/Image';
-import Result from '../components/Result';
-import Default from '../components/Default';
+import { Default, Image, Result } from '../components';
 
 const Home = () => {
   const [texto, setTexto] = useState('');
