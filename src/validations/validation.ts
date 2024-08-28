@@ -1,4 +1,3 @@
-// Objeto de mapeo para la encriptación
 const encryptionMap: { [key: string]: string } = {
     'a': 'ai',
     'e': 'enter',
